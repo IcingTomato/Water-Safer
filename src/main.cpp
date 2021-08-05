@@ -15,9 +15,9 @@ const int restColorG = 255;
 const int restColorB = 255;
 
 
-const int pinSound = A0;
+const int pinSound = A2;
 const int pinLed   = 7;
-const int speakerPin = 3;
+const int speakerPin = 5;
 
 int thresholdValue = 450;  // determines loudness for sound sensor
 const unsigned long waterUseAllowedDuration = 3000;  // how long you want to use water for before warning
